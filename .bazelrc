@@ -5,6 +5,9 @@ build \
   --ios_simulator_version=13.3 \
   --verbose_failures \
 
+build --bes_backend=grpcs://e.grdev.net
+build --bes_results_url=https://e.grdev.net/build/
+
 # During development
 # build -s --test_output=all --cache_test_results=no
 

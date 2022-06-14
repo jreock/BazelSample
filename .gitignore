@@ -18,3 +18,8 @@
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 Carthage/Checkouts
 Carthage/Build
+Cartfile.resolved
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/settings.json
+.vscode/targets.log
